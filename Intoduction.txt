@@ -1,0 +1,38 @@
+What is Svelte?
+- Svelte is a tool for building fast web applications
+- Similar to React or Vue, its primary goal is to make it easy to build interactive user
+interfaces
+- Unlike React or Vue which do the bulk of their work in the browser, Svelte
+converts your app into ideal JavaScript at build time
+- Instead of using techniques like virtual DOM diffing, Svelte writes code that
+cleverly updates the DOM when the state of your app changes
+
+
+What is SvelteKit?
+- SvelteKit is a framework for building high-performance web apps using Svelte
+- Svelte is a component framework, SvelteKit is an app framework
+
+
+SvelteKit is an app framework
+Svelte
+- It's not quite possible to build a full feature rich application ready to be deployed for production
+Svelte is a component framework for building user interfaces
+- You have to make decisions on other features of the app like routing, SSR, auth etc
+
+SvelteKit
+- It is a package that uses Svelte for building user interfaces
+- Loaded with a lot more features that enables you to build full fledged production ready
+applications
+- Features exactly like routing, server side rendering, authentication, bundle optimization etc
+There's no need to install additional packages. SvelteKit provides everything for you
+- Opinions and conventions which need to be followed to implement the above said features
+
+
+
+Why learn SvelteKit? 
+SvelteKit simplifies the process of building a web application for production 
+1. File based routing 
+2. Pre-rendering 
+3. API routes 
+4. Data fetching 
+5. Optimized production build system 
